@@ -82,6 +82,11 @@ nav img{
     margin-right: 12.5px;
     margin-left: 12.5px;
 }
+    #abrirMenuButton{
+        background-color: rgba(49, 49, 143, 0.815);
+        color: aliceblue;
+        font-size: 2vw;
+}
 .Postnav{
     margin-left: 0px;
     width: 17%;
