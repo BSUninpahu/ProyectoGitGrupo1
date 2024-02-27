@@ -173,3 +173,12 @@ nav img{
 
   }
 
+ .modal {
+    background-color: rgb(185, 191, 196);
+}
+
+#username, #password, #login, #cancel, #forgotPassword {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 14px;
+}
