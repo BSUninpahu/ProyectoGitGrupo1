@@ -1,0 +1,307 @@
+*{
+    box-sizing: border-box;
+  
+}
+
+html{
+   scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+
+ 
+}
+
+h1{font-size: 2.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size: 1.25em;}
+ul{list-style: none;}
+li{font-size: 1.25em;}
+
+ button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px;
+    box-shadow: 2px 2px 10px rgba(rgb(255, 247, 0));
+    color: rgb(244, 244, 247);
+    background-color: rgb(16, 84, 211);
+
+ }
+
+
+ button:hover{
+    background-color: rgb(2, 14, 75);
+ }
+
+
+ .container {
+    max-width: 1400px;
+    max-height: 500px;
+   
+ }
+ 
+ .color-acento {
+   color: rgb(22, 63, 215);
+
+ }
+
+
+
+
+ header{
+    background-color: rgba(227, 230, 238, 0.97);
+ }
+ 
+ header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: rgb(51, 54, 223);
+    font-size: 1.45em;
+
+
+ 
+ }
+ 
+ header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+ }
+ 
+ 
+
+ header  nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+
+ }
+
+ header  a {
+    padding: 5px 12px ;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+ }
+ header  a:hover {
+    color: rgb(51, 54, 223);
+ }
+
+ #hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: rgb(229, 232, 234);
+    background-image:linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+
+    )
+    ,url(/img/img\ inicio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+ }
+
+
+ #hero h1 {
+   color: aliceblue;
+ }
+
+ #hero button{
+   font-size: 1.75em;
+ }
+
+
+
+
+ #somos-proya{
+   background-image:linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+
+    ) 
+    ,url(/img/WhatsApp\ Image\ 2024-02-27\ at\ 6.34.50\ PM.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+      text-align: center;  
+      padding: 50px;
+      background-color: rgba(238, 226, 226, 0.5); /* Cambio de la opacidad del fondo */
+      border-radius: 20px; /* Aumentar el radio de los bordes redondeados */
+      margin: auto; /* Centrar horizontalmente */
+  
+      position: relative; /* Agregar posición relativa para z-index */
+      z-index: 1; /* Asegurar que esté delante del fondo */
+  }
+  
+
+ #somos-proya   .container{
+   text-align: center;
+   padding: 200px 12px;
+ }
+
+ #nuestros-programas {
+   background-color: rgb(33, 31, 31);
+   color: rgb(229, 236, 243);
+   text-align: center;
+   
+ }
+
+ #nuestros-programas .container{
+   padding: 150px 12px;
+
+ }
+
+ #nuestros-programas h2 {
+   margin-top: 0;
+   font-size: 3em;
+ }
+
+
+
+ #nuestros-programas p {
+   display: none;
+
+ }
+
+
+ #nuestros-programas .carta {
+
+   background-position: center center;
+   background-size: cover;
+   padding: 50px;
+   margin: 20px;
+   border-radius: 15px;
+ }
+.carta4{
+   
+   text-align: center;
+   padding: 50px;
+   background-color: rgba(255, 255, 255, 0.574); /* Cambio de la opacidad del fondo */
+   border-radius: 20px; /* Aumentar el radio de los bordes redondeados */
+   margin: auto; /* Centrar horizontalmente */
+   max-width: 600px; /* Limitar el ancho del contenedor para centrarlo */
+   position: relative; /* Agregar posición relativa para z-index */
+   z-index: 1; /* Asegurar que esté delante del fondo */
+   
+
+}
+
+ .carta:first-child {
+   background-image:linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+
+    )
+    ,url(img/WhatsApp\ Image\ 2024-02-27\ at\ 6.34.50\ PM.jpeg);
+   
+   
+ }
+
+ .carta:nth-child(2){
+   background-image:linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+
+    )
+    ,url(/mipagina/imagen2.jpg);
+
+  
+
+ }
+
+.carta:nth-child(3){
+   background-image:linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+
+    )
+    ,url(/mipagina/imagen3.jpg);
+   
+
+}
+
+
+
+#caracteristicas .container{
+   text-align: center;
+   padding: 250px  12px;
+}
+
+#caracteristicas li {
+   margin: 15px 0px;
+   font-weight: bold;
+
+
+}
+
+
+#final {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   background-color: black;
+   color: aliceblue;
+   height: 80vh;
+
+
+}
+
+#final h2{
+   font-size: 9vw;
+
+}
+
+
+
+
+
+#final button{
+   font-size: 5vw;
+}
+
+
+footer{
+   background-color: azure;
+
+}
+
+footer p{
+   margin: 0;
+   color: rgb(15, 16, 16);
+
+}
+
+footer .container{
+   height: 150px;
+   display: flex;
+   justify-content: center;
+   align-items:flex-end;
+
+
+}
+
+
+
+
+
+
+
