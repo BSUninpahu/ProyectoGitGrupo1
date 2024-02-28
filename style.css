@@ -154,7 +154,8 @@ li{font-size: 1.25em;}
  }
 
  #nuestros-programas {
-   background-color: rgb(33, 31, 31);
+
+   background-color: rgb(11, 15, 51);
    color: rgb(229, 236, 243);
    text-align: center;
    
@@ -219,7 +220,7 @@ li{font-size: 1.25em;}
       rgba(0,0,0,0.5)
 
     )
-    ,url(/mipagina/imagen2.jpg);
+    ,url(img/WhatsApp\ Image\ 2024-02-27\ at\ 6.34.50\ PM\ \(1\).jpeg);
 
   
 
@@ -232,7 +233,7 @@ li{font-size: 1.25em;}
       rgba(0,0,0,0.5)
 
     )
-    ,url(/mipagina/imagen3.jpg);
+    ,url(img/WhatsApp\ Image\ 2024-02-27\ at\ 6.34.50\ PM\ \(2\).jpeg);
    
 
 }
