@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
       postNav.style.display = "none";
   
     });
-  });
+  }); 
   
   document.addEventListener("DOMContentLoaded", function () {
     // Obtener el elemento del botón de apertura del menú
