@@ -128,6 +128,56 @@
         <h4> What you'll learn  </h4>
      </footer>
 
+
+    <!-- Botón para abrir el login -->
+    <button onclick="document.getElementById('id01').style.display='block'">Iniciar sesión</button>
+
+    <!-- Para cerrarlo -->
+    <div id="id01" class="modal">
+    <span onclick="document.getElementById('id01').style.display='none'"
+    class="close" title="Close Modal"></span>
+
+<!-- Todos los campos a llenar -->
+
+    <div class="container">
+        <div id="username">
+            <label for="uname"><b>Nombre de usuario</b></label>
+            <input type="text" style="width: 490px" placeholder="Ingrese su nombre de usuario" name="uname" required>
+        </div>
+
+        <div id="password">
+            <label for="psw"><b>Contraseña</b></label>
+            <input type="password" style="width: 490px" placeholder="Ingrese su contraseña" name="psw" required>
+        </div>
+
+        <div id="login">
+            <button type="submit">Iniciar sesión</button>
+        </div>
+
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Recuérdame
+      </label>
+    </div>
+
+    <div class="container">
+        <div id="cancel">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
+        </div>
+
+        <div id="forgotPassword">
+            <span class="psw">¿Olvidaste tu <a href="#">contraseña?</a></span>
+        </div>
+    </div>
+  </form>
+    
+</div>
+
+<div id="PiePagina">
+
+    <footer> 
+        <h4> What you'll learn  </h4>
+     </footer>
+
 </div>
  
 
