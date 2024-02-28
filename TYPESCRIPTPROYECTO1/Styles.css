@@ -2,7 +2,7 @@ body{
     
     padding: 0px;
     margin: 0px;
-    background-color: rgb(185, 191, 196);
+    background-color: rgba(14, 19, 23, 0.949);
 }
 header img{
     height: 30px;
@@ -13,7 +13,7 @@ header{
     height: 40px;   
     display: flex;
     text-align: center; 
-    background-color: white;
+    background-color: rgba(57, 68, 104, 0.884);
 }
 .header{
 
@@ -59,11 +59,19 @@ margin-right: 5px;
 }
 header .izquierda{
     padding-left: 600px;
-    border-right: solid #EAEDEE;
+    border-right: solid #eaedee9a;
 }
+
+
+
 header .derecha{
-    border-right: solid #EAEDEE;
+    border-right: solid #eaedee6c;
 }
+
+
+
+
+
 nav {
     width: 4%;
     height: 1000px;
@@ -120,7 +128,7 @@ nav img{
     height: 500px;
     background-color: rgb(77, 77, 77);
     margin-bottom: 15%;
-    color: aliceblue;
+    color: rgba(240, 248, 255, 0.904);
 }
 .textocuadro {
     margin-top: 5%;
@@ -189,9 +197,37 @@ nav img{
     border-width: 1.5px 2 1;
   }
 
+
+
+  /* estilo del login*/
+
+
  .modal {
-    background-color: rgb(185, 191, 196);
+    background-color: rgb(60, 75, 88);
+    color:white;
+    border-radius: 1em;
 }
+
+.container, input{
+    
+    background-color: rgb(60, 75, 88);
+    color:white;
+    border-radius: 1em;
+    
+  }
+
+  #container,button{
+
+    background-color: rgba(52, 43, 85, 0.903);
+    color:rgb(191, 198, 207);
+    border-radius: 1em;
+    
+
+  }
+
+    /* fin del estilo del login */
+
+
 
 #username, #password, #login, #cancel, #forgotPassword {
     margin-top: 20px;
@@ -224,12 +260,14 @@ nav img{
   }
   body {
     transition: background-color 0.5s;
+    
   }
   
   #colorPicker {
     position: fixed;
-    top: 10px;
+    top: 90%;
     right: 10px;
     display: flex;
     align-items: center;
   }
+
