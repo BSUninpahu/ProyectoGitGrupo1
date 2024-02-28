@@ -65,8 +65,8 @@ header .derecha{
     border-right: solid #EAEDEE;
 }
 nav {
-    width: 3%;
-    height: 800px;
+    width: 4%;
+    height: 1000px;
     background-color: rgba(49, 49, 143, 0.815);
     padding-left: 0px;
     margin-left: 0px;   
@@ -82,11 +82,16 @@ nav img{
     margin-right: 12.5px;
     margin-left: 12.5px;
 }
+    #abrirMenuButton{
+        background-color: rgba(49, 49, 143, 0.815);
+        color: aliceblue;
+        font-size: 2vw;
+}
 .Postnav{
     margin-left: 0px;
     width: 17%;
-    height: 800px;
-    background-color: rgb(38, 38, 179);
+    height: 1000px;
+    background-color: rgb(30, 30, 133);
     color: aliceblue;
 }
 .navpost{
@@ -131,9 +136,10 @@ nav img{
     margin-left: 70px;
     margin-top: 40px;
     width: 315px;
-    height: 520px;
+    height: 510px;
     background-color: rgb(210, 231, 253);
 }
+
 #BotonRecuadro {
     position:absolute;
     color: gray;
@@ -151,8 +157,9 @@ nav img{
     display: block !important;
     position: fixed;
     z-index: 9999999;
-    bottom: 20px;
     right: 20px;
+    margin-top: 100px;
+    margin-right: -120px;
     cursor: pointer;
     border-radius:100px !important;
     }
@@ -172,3 +179,24 @@ nav img{
     color: gray;
     font-size: 30px;
   }
+
+  .linea{
+    position: absolute;
+    top: 45%;
+    width: 1.2%;
+    border-color:gray;
+    border-style: solid;
+    border-width: 1.5px 2 1;
+
+
+  }
+
+ .modal {
+    background-color: rgb(185, 191, 196);
+}
+
+#username, #password, #login, #cancel, #forgotPassword {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 14px;
+}
