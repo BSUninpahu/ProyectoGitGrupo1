@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Styles.css">
+    <script src="main.js"></script>
 </head>
 <body>
     <header>
@@ -43,9 +44,10 @@
         <img src="IMAGES/configuraciones.png" alt="">
         <label >Settings</label>
     </nav>
+    <button id="abrirMenuButton">></button>
 <div class="Postnav">
     <div class="Postnav1">
-        Sections <img src="IMAGES/x.png" alt="" style=" margin-left: 140px;
+        Sections <img id="closeMenuButton" src="IMAGES/x.png" alt="" style=" margin-left: 140px;
         width: 10px;
         height: 10px;">
         <br>
@@ -56,6 +58,7 @@
         <img src="IMAGES/FONDOBLANCO2.png" alt="">
         <img src="IMAGES/FONDO NEGRO.png" alt="">
         <img src="IMAGES/FONDO NEGRO2.png" alt="">
+        <img src="IMAGES/FONDOBLANCO.png" alt="">
     </div>
     
 </div>
@@ -63,14 +66,70 @@
     <div class="textocuadro">    VIRTUAL COURSE: HARRY DESING 101
         <H1>Create a Harry Guinness in 5 Days (or less)</H1>
         <z > Loocking to create a Harry from scratch? Harry Desing 101 is just for you. This ultimate course explains all of the obvious and not-so-obvious best practices of Harry design. We'll teach you to create a Harry with any skillset.</z>
+
+        
+        <h4><del>$79</del>  <font size="5">$29</font>   FOR A LIMITED TIME</h4> 
+        <hr class="linea">
+
+        <button id="BotonRecuadro">START THE COURSE</button>
     </div>
     <div class="imagenescuadro">
         <img src="IMAGES/Fototipo.png" style="height: 200px; margin-top: 10px;border: 15px solid #adf8db;margin-left: 10px;">
         <img src="IMAGES/QUITARBORDE.png" style="width: 220px; margin-left: 50px;">
     </div>
     </div>
+
+    <!-- Botón para abrir el login -->
+    <button onclick="document.getElementById('id01').style.display='block'">Iniciar sesión</button>
+
+    <!-- Para cerrarlo -->
+    <div id="id01" class="modal">
+    <span onclick="document.getElementById('id01').style.display='none'"
+    class="close" title="Close Modal"></span>
+
+<!-- Todos los campos a llenar -->
+
+    <div class="container">
+        <div id="username">
+            <label for="uname"><b>Nombre de usuario</b></label>
+            <input type="text" style="width: 490px" placeholder="Ingrese su nombre de usuario" name="uname" required>
+        </div>
+
+        <div id="password">
+            <label for="psw"><b>Contraseña</b></label>
+            <input type="password" style="width: 490px" placeholder="Ingrese su contraseña" name="psw" required>
+        </div>
+
+        <div id="login">
+            <button type="submit">Iniciar sesión</button>
+        </div>
+
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Recuérdame
+      </label>
+    </div>
+
+    <div class="container">
+        <div id="cancel">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
+        </div>
+
+        <div id="forgotPassword">
+            <span class="psw">¿Olvidaste tu <a href="#">contraseña?</a></span>
+        </div>
+    </div>
+  </form>
     
 </div>
+
+<div id="PiePagina">
+
+    <footer> 
+        <h4> What you'll learn  </h4>
+     </footer>
+
+</div>
+ 
 
 </div>
 </body>
