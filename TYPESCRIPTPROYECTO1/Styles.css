@@ -198,3 +198,38 @@ nav img{
     margin-bottom: 20px;
     margin-left: 14px;
 }
+#PiePagina2 {
+    position: absolute;
+    bottom: -10%;
+    left: 52%;
+    transform: translateX(-50%);
+    color: gray;
+    font-size: 30px;
+  }
+  #PiePagina3 {
+    position: absolute;
+    bottom: -10%;
+    left: 48%;
+    transform: translateX(-50%);
+    color: gray;
+    font-size: 30px;
+  }
+  #PiePagina4 {
+    position: absolute;
+    bottom: -10%;
+    left: 44%;
+    transform: translateX(-50%);
+    color: gray;
+    font-size: 30px;
+  }
+  body {
+    transition: background-color 0.5s;
+  }
+  
+  #colorPicker {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+  }
