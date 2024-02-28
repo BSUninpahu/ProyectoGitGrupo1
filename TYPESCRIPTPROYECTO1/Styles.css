@@ -140,13 +140,26 @@ nav img{
     background-color: rgb(210, 231, 253);
 }
 
-#whatsapp
+#BotonRecuadro {
+    position:absolute;
+    color: gray;
+    background-color:#A6F4F7;
+    font-size: 15px;
+    margin: 10px;
+    border-bottom:gray;
+    padding: 10px 10px;
+
+
+  }
+  
+
   img.btn-whatsapp {
     display: block !important;
     position: fixed;
     z-index: 9999999;
-    bottom: 20px;
     right: 20px;
+    margin-top: 100px;
+    margin-right: -120px;
     cursor: pointer;
     border-radius:100px !important;
     }
@@ -158,29 +171,15 @@ nav img{
     transition-duration: 1s;
     } 
 
-
-#PiePagina {
+  #PiePagina {
     position: absolute;
-    bottom: 0;
-    left: 65%;
+    bottom: -10%;
+    left: 50%;
     transform: translateX(-50%);
     color: gray;
     font-size: 30px;
-    margin: -80px;
   }
 
-  #BotonRecuadro {
-    position:absolute;
-    color: gray;
-    background-color:#A6F4F7;
-    font-size: 20px;
-    margin: 4px;
-    border-bottom:gray;
-    padding: 10px 10px;
-    right: 50%;
-
-
-  }
   .linea{
     position: absolute;
     top: 45%;
@@ -188,8 +187,6 @@ nav img{
     border-color:gray;
     border-style: solid;
     border-width: 1.5px 2 1;
-
-
   }
 
  .modal {
