@@ -248,10 +248,16 @@ nav img {
 
 #funcionessec5,ul{
 
-
+    margin-right: 30px;
     list-style:none ;
 
 
+}
+
+
+.funcionessec5 a{
+
+color: aliceblue;
 }
 
 
