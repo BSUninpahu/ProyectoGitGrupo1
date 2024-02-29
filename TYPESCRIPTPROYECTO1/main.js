@@ -1,3 +1,6 @@
+
+// ATENTION!! FUNCIONALIDAD NAVPOST NAVEGADOR LATERAL <<<< SECCIÓN 111 >>>>//
+
 document.addEventListener("DOMContentLoaded", function () {
     // Obtener el elemento del botón de cierre del menú
     var closeMenuButton = document.getElementById("closeMenuButton");
@@ -27,8 +30,3 @@ document.addEventListener("DOMContentLoaded", function () {
   
     });
   });
-  function cambiarColor() {
-    var color = document.getElementById("colorInput").value;
-    document.body.style.backgroundColor = color;
-  }
-  

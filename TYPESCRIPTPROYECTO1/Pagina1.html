@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Styles.css">
-    <script src="main.js"></script>
 </head>
 <body>
     <header>
@@ -22,12 +21,12 @@
             <a href=""><img src="IMAGES/flecha derecha .png" alt=""></a>
         </div>
         <div class="derecha">
-            <button style="width: 200px;">Get Feedback <b style="background-color: aqua;">NEW</b></button>
+            <button style="width: 200px;">Get Feedback <b style="background-color: rgba(97, 185, 244, 0.564);">NEW</b></button>
             <button> Preview</button>
-            <button style="background-color: #33CAFF; margin-right: 10px;">Publish</button>
+            <button>Publish</button>
             
         </div>
-        <img src="IMAGES/signointerrogacion.png" style="height: 30px;   width: 30px;margin-left: 10px;">
+        <img src="IMAGES/signointerrogacion.png" style="height: 30px;   width: 30px;margin-left: 10px;" alt="">
         </div>
     </header>
     <div class="navpost">
@@ -57,28 +56,39 @@
             </li>
         </ul>
     </nav>
-          
 <div class="Postnav">
     <div class="Postnav1">
-        Sections <img id="closeMenuButton" src="IMAGES/x.png" alt="" style=" margin-left: 140px;
+        Sections <img src="IMAGES/x.png" alt="" style=" margin-left: 140px;
         width: 10px;
         height: 10px;">
         <br>
         <br>
         <label style="font-size: 13px;">Section type</label>
-        <select name="desplegable" id=""><option value="About">About</option></select>
-        <img src="IMAGES/FONDOBLANCO.png" alt="">
-        <img src="IMAGES/FONDOBLANCO2.png" alt="">
-        <img src="IMAGES/FONDO NEGRO.png" alt="">
-        <img src="IMAGES/FONDO NEGRO2.png" alt="">
-        <img src="IMAGES/FONDOBLANCO.png" alt="">
+        <select name="desplegable" id=""><option value="About" >About</option></select>
+        
+        <div>
+            <img src="IMAGES/Persona1.png" alt="">
+            <p>
+                Sebastien believes that each customer is unique and deserves the best! His daily goal is to offer them the most appropriate and simple solutions. To date, he is responsible for more than 600 new implementations per year. Sebastien is the head of Direct and Indirect Channels.
+            </p>
+        </div>
+        <div>
+            <img src="IMAGES/persona2.png" alt="">
+            <p>
+                Alessa has several years of international experience and helps us to easily understand the numbers and improve them. She is determined to drive success and offers her professional insight to take it to the next level. Alessa is responsible for finance, legal and human resources.
+            </p>
+        </div>
+        
     </div>
     
 </div>
 <div class="cuadrogris">
-    <div class="textocuadro">    VIRTUAL COURSE: HARRY DESING 101
+    
+    
+    <div class="textocuadro">    VIRTUAL COURSE: HARRY DESIGN 101
         <H1>Create a Harry Guinness in 5 Days (or less)</H1>
-        <z > Loocking to create a Harry from scratch? Harry Desing 101 is just for you. This ultimate course explains all of the obvious and not-so-obvious best practices of Harry design. We'll teach you to create a Harry with any skillset.</z>
+        <z > Looking to create a Harry from scratch? Harry Design 101 is just for you. This ultimate course explains all of
+             the obvious and not-so-obvious best practices of Harry design. We'll teach you to create a Harry with any skillset.</z>
 
         
         <h4><del>$79</del>  <font size="5">$29</font>   FOR A LIMITED TIME</h4> 
@@ -88,92 +98,98 @@
         <button id="BotonRecuadro">START THE COURSE</button>
     </div>
     <div class="imagenescuadro">
-        <img src="IMAGES/Fototipo.png" style="height: 200px; margin-top: 10px;border: 15px solid #adf8db;margin-left: 10px;">
-        <img src="IMAGES/QUITARBORDE.png" style="width: 220px; margin-left: 50px;">
-    </div>
-    </div>
-       <!-- Botón para abrir el login -->
-       <button onclick="document.getElementById('id01').style.display='block'">Iniciar sesión</button>
+        <img src="IMAGES/Fototipo.png" style="height: 200px; margin-top: 10px;border: 15px solid #add3f89f;margin-left: 10px;">
 
-       <!-- Para cerrarlo -->
-       <div id="id01" class="modal">
-       <span onclick="document.getElementById('id01').style.display='none'"
-       class="close" title="Close Modal"></span>
-   
-   <!-- Todos los campos a llenar -->
-   
-       <div class="container">
-           <div id="username">
-               <label for="uname"><b>Nombre de usuario</b></label>
-               <input type="text" style="width: 490px" placeholder="Ingrese su nombre de usuario" name="uname" required>
-           </div>
-   
-           <div id="password">
-               <label for="psw"><b>Contraseña</b></label>
-               <input type="password" style="width: 490px" placeholder="Ingrese su contraseña" name="psw" required>
-           </div>
-   
-           <!--<div id="login">
-               <button type="submit" >Iniciar sesión</button>
-           </div>-->
-           <div class="container"> 
-            <div class="btn">
-              <span>Iniciar sesión</span>
-              <div class="dot"></div>
-            </div>
+        <br><br>
+
+
+        
+        <div class="funcionessec5">
+             
+            <br>
+
+            <div class="funimages1">
+
+                <a href="https://www.youtube.com/watch?v=DHfRfU3XUEo"><img src="IMAGES/pincel.png"></a>
+
+                <a href="https://www.youtube.com/watch?v=xp-0V-Nco6k"><img src="IMAGES/enlace.png"alt=""></a>
+
+                <a href="https://www.youtube.com/watch?v=bmTpnLJUXwY"><img src="IMAGES/imagen.png"alt=""></a>
+                
+            </div> 
+
+             <br>
+
+
+         
+            <label>width</label> <input type="range" id="vol" min="0" max="100" step="1" value="100" onchange="document.getElementById('outvol').value=value"/>
+            
+            <output id="outvol" name="outvol" for="vol">100%</output>
+            
+
+            <br> <br>
+
+
+              <!-- Checkbox -->
+        
+              <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+              <label class="form-check-label" for="form2Example31"> Set Max Image Width </label>
+
+            <br>  <br>
+         
+
+
+            <input type="number"enabled/>
+
+            <br> <br>
+
+
+            <!-- Checkbox2 -->
+      
+            <input class="form-check-input2" type="checkbox" value="" id="form2Example31" />
+            <label class="form-check-label2" for="form2Example31"> Do Not Optimize This Image </label>
+
+          <br>  <br>
+
+
+          <div class="funimages2">
+
+            <a href="https://www.youtube.com/watch?v=DHfRfU3XUEo"><img src="IMAGES/editarIma1.png"></a>
+
+            <a href="https://www.youtube.com/watch?v=xp-0V-Nco6k"><img src="IMAGES/editarIma2.png"alt=""></a>
+
+            <a href="https://www.youtube.com/watch?v=bmTpnLJUXwY"><img src="IMAGES/editarima3.png"alt=""></a>
+
+
           </div>
-   
-         <label>
-           <input type="checkbox" checked="checked" name="remember"> Recuérdame
-         </label>
-       </div>
-   
-       <!-- <div class="container">
-           <div id="cancel">
-               <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
-           </div> -->
-   
-           <div id="forgotPassword">
-               <span class="psw">¿Olvidaste tu <a href="#">contraseña?</a></span>
-           </div>
-       </div>
-     </form>
-   </div>
+  
+       
+          <div class="funlist">
+  
+           <ul>
+              <li> <a href="https://upload.wikimedia.org/wikipedia/commons/f/f0/Juan_Cuadrado_2019.jpg">Square</a></li> <br>
+              <li> <a href="https://i.pinimg.com/474x/26/d6/05/26d605396d3a7b40f68d3c4e79aebec1.jpg">Rounded</a></li> <br>
+              <li> <a href="https://img.freepik.com/fotos-premium/pequeno-gato-durmiendo-cama-forma-bola-pequeno-gatito-duerme_123211-3825.jpg">Circular</a></li> <br>
+           </ul>
+  
+          </div>
+
+
+        </div>
+
+
+
+        
+       
+    </div>
+    
 </div>
 
-<div id="PiePagina">
-
-    <footer> 
-        <h4> What you'll learn  </h4>
-     </footer>
-     <img class="btn-whatsapp" src="https://clientes.dongee.com/whatsapp.png" width="64" height="64" alt="Whatsapp"> 
-
 </div>
-<div id="PiePagina2">
 
-   
-
-    <img class="btn-whatsapp" src="IMAGES/facebook.png" width="64" height="64" alt="facebook"> 
-
+<div class="texto-inferior">
+    <p>What you'll learn</p>
 </div>
-</div>
-<div id="PiePagina3">
 
- 
-
-    <img class="btn-whatsapp" src="IMAGES/TWIT.png" width="64" height="64" alt="twiter"> 
-
-</div>
-<div id="PiePagina4">
-
- 
-
-   <img class="btn-whatsapp" src="IMAGES/Google-Symbol.png" width="64" height="64" alt="Google-Symbol"> 
-
-</div>
-<div id="colorPicker">
-   <input type="color" id="colorInput" />
-   <button onclick="cambiarColor()">Cambiar Color</button>
- </div>
 </body>
 </html>
