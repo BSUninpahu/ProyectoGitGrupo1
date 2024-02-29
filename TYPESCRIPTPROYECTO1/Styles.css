@@ -2,11 +2,7 @@ body{
     
     padding: 0px;
     margin: 0px;
-<<<<<<< HEAD
-    background-color: rgb(185, 191, 196);
-=======
     background-color: rgba(191, 197, 215, 0.949);
->>>>>>> NewSalazar
 }
 header img{
     height: 30px;
@@ -16,13 +12,8 @@ header{
     margin: 0px;
     height: 40px;   
     display: flex;
-<<<<<<< HEAD
-    text-align: center; 
-    background-color: white;
-=======
     text-align: center;
     background-color: rgba(236, 240, 253, 0.884);
->>>>>>> NewSalazar
 }
 .header{
 
@@ -41,11 +32,7 @@ header button{
     border-radius: 2em;
     text-align: center;
     content: inherit;
-<<<<<<< HEAD
-    background-color: rgba(151, 147, 147,0.4);
-=======
     background-color: rgba(200, 216, 244, 0.4);
->>>>>>> NewSalazar
 
 }
 
@@ -77,8 +64,6 @@ header .izquierda{
 header .derecha{
     border-right: solid #EAEDEE;
 }
-<<<<<<< HEAD
-=======
 
 
 #header,button:hover{
@@ -93,7 +78,6 @@ header .derecha{
 
 /*<<< SECCIÓN NAV NAVEGADOR LATERAL 002 >>>*/
 
->>>>>>> NewSalazar
 nav {
     width: 3%;
     height: 900px;
@@ -143,9 +127,6 @@ nav img{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-<<<<<<< HEAD
-.cuadrogris{
-=======
 
 
 
@@ -155,7 +136,6 @@ nav img{
 /*  <<< SECCIÓN CATEGORÍA 004 >>>   */
 
 .cuadrogris {
->>>>>>> NewSalazar
     display: flex;
     margin-top: 75px;
     width: 100%;
@@ -174,8 +154,6 @@ nav img{
 .textocuadro h1 {
     font-size: 40px;
 }
-<<<<<<< HEAD
-=======
 
 #BotonRecuadro {
     position: absolute;
@@ -206,30 +184,10 @@ nav img{
 
 /* <<< SECCIÓN CUADRO FUNCIONAL RANGE 005 >>>*/
 
->>>>>>> NewSalazar
 .imagenescuadro {
     margin-left: 70px;
     margin-top: 40px;
     width: 315px;
-<<<<<<< HEAD
-    height: 520px;
-    background-color: rgb(210, 231, 253);
-}
-.texto-inferior {
-    background-color: #f0f0f0;
-    position: absolute;
-    text-align:center; 
-    top: calc(100% + 65px); 
-    left: 265px; 
-    height: 150px;
-    padding: 10px;
-    width: 80%; 
-    color: rgb(133, 124, 113);
-    font-size:x-large;
-    line-height: 5;
-    border-top: 3px solid rgb(31, 84, 197);
-}
-=======
     height: 510px;
     background-color: rgba(186, 211, 237, 0.704);
     
@@ -318,7 +276,9 @@ img.btn-whatsapp:hover {
     transition-duration: 1s;
 }
 
-#PiePagina {
+.texto-inferior {
+    margin-top: 30%;
+    text-align: center;
     position: absolute;
     bottom: -10%;
     left: 50%;
@@ -364,4 +324,3 @@ body {
 
 }
 
->>>>>>> NewSalazar
