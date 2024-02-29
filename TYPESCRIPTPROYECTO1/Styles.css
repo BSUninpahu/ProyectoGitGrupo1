@@ -257,46 +257,7 @@ img.btn-whatsapp:hover {
 }
 
 
-/* <<<<<<<<<<<<<<<<<<<<<<<<<<< ELIMMINAR LOGIN SECCIÓN 500 >>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
-/* estilo del login*/
-
-
-.modal {
-    background-color: rgb(60, 75, 88);
-    color: white;
-    border-radius: 1em;
-}
-
-.container,
-input {
-
-    background-color: rgb(60, 75, 88);
-    color: white;
-    border-radius: 1em;
-
-}
-
-#container,
-button {
-
-    background-color: rgba(52, 43, 85, 0.903);
-    color: rgb(191, 198, 207);
-    border-radius: 1em;
-
-}
-
-#username,
-#password,
-#login,
-#cancel,
-#forgotPassword {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 14px;
-}
-
-/* fin del estilo del login */
 
 
 body {
@@ -304,12 +265,3 @@ body {
 
 }
 
-/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< ELIMINAR FUNCIONALIDAD COLORPICKER  SECCIÓN 500 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-
-#colorPicker {
-    position: fixed;
-    top: 90%;
-    right: 10px;
-    display: flex;
-    align-items: center;
-}
