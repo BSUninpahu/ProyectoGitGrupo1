@@ -142,6 +142,13 @@ nav img {
     margin-bottom: 10px;
 }
 
+#textoOculto {
+   display: none;
+}
+
+#textoO2 {
+    display: none;
+ }
 
 
 /*  <<< SECCIÓN CATEGORÍA 004 >>>   */

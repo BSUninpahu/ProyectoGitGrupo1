@@ -79,13 +79,44 @@
         height: 10px;">
         <br>
         <br>
-        <label style="font-size: 13px;">Section type</label>
-        <select name="desplegable" id=""><option value="About">About</option></select>
-        <img src="IMAGES/FONDOBLANCO.png" alt="">
-        <img src="IMAGES/FONDOBLANCO2.png" alt="">
-        <img src="IMAGES/FONDO NEGRO.png" alt="">
-        <img src="IMAGES/FONDO NEGRO2.png" alt="">
-        <img src="IMAGES/FONDOBLANCO.png" alt="">
+        <label style="font-size: 13px;">Section type</label><br>
+
+        <br>
+     <script>
+            function Informacion(){
+                var boton = textoOculto=document.getElementById("textoOculto");
+                textoOculto.style.display="block" ; 
+                
+            }
+     </script>
+        <div>
+          <h2>Engineer</h2>
+           <img src="IMAGES/persona1.png" alt=""><br>
+           <br>
+            <button onclick="Informacion()">Informacion</button>
+            <p id="textoOculto">
+                Sebastien believes that each customer is unique and deserves the best! His daily goal is to offer them the most appropriate and simple solutions. To date, he is responsible for more than 600 new implementations per year. Sébastien is the head of Direct and Indirect Channels.
+            </p>
+            
+        </div>
+        
+        <div>
+            <h2>Humanistic</h2>
+            <img src="IMAGES/persona2.png" alt=""><br>
+            <br>
+            <button onclick="Info2()">Informacion</button>
+            <p id="textoO2">
+               Alessa has several years of international experience and helps us to  easily understand the numbers and improve them. He is determined to drive success and offers his professional insight to take it to the next level. Alessa is responsible for finance, legal and human resources.
+            </p>
+            <script>
+                  function Info2(){
+                    var textoO2=document.getElementById("textoO2");
+                    textoO2.style.display="block"; 
+                 }
+            </script>    
+           
+        </div>
+
     </div>
     
 </div>
