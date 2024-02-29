@@ -1,168 +1,127 @@
-body {
-
+body{
+    
     padding: 0px;
     margin: 0px;
-    background-color: rgba(14, 19, 23, 0.949);
+    background-color: rgb(185, 191, 196);
 }
-
-
-/* <<< SECCIÓN HEADER 001 >>>*/
-
-header img {
+header img{
     height: 30px;
 }
-
-header {
+header{
     width: 100%;
     margin: 0px;
-    height: 40px;
+    height: 40px;   
     display: flex;
-    text-align: center;
-    background-color: rgba(57, 68, 104, 0.884);
+    text-align: center; 
+    background-color: white;
 }
-
-.header {
+.header{
 
     margin: 5px;
 }
-
-header b {
+header b{
     text-align: center;
     margin-top: 5px;
     margin-left: 15px;
 }
-
-header button {
+header button{
     margin-left: 15px;
-    display: center;
+    display:center;
     width: 80px;
     height: 30px;
     border-radius: 2em;
     text-align: center;
     content: inherit;
-    background-color: rgba(151, 147, 147, 0.4);
+    background-color: rgba(151, 147, 147,0.4);
 
 }
 
-header div button img {
+header div button img{
     width: 15px;
     height: 15px;
     vertical-align: middle;
     margin-right: 10%;
     right: 10%;
 }
-
-header div {
+header div{
     display: flex;
     content: inherit;
     padding-right: 0;
     align-content: right;
     float: right;
 }
-
-header .izquierda img {
+header .izquierda img{ 
     display: flex;
     content: inherit;
-    margin-left: px;
-    margin-right: 5px;
+margin-left: px;
+margin-right: 5px;
 
 }
-
-header .izquierda {
+header .izquierda{
     padding-left: 600px;
-    border-right: solid #eaedee9a;
+    border-right: solid #EAEDEE;
 }
-
-
-
-header .derecha {
-    border-right: solid #eaedee6c;
+header .derecha{
+    border-right: solid #EAEDEE;
 }
-
-
-
-/*<<< SECCIÓN NAV NAVEGADOR LATERAL 002 >>>*/
-
 nav {
-    width: 4%;
-    height: 1000px;
+    width: 3%;
+    height: 900px;
     background-color: rgba(49, 49, 143, 0.815);
     padding-left: 0px;
-    margin-left: 0px;
+    margin-left: 0px;   
     font-size: 8px;
     text-align: center;
     color: aliceblue;
-
+    
 }
-
-nav img {
+nav img{
     width: 15px;
     height: 15px;
     margin-top: 20px;
     margin-right: 12.5px;
     margin-left: 12.5px;
 }
-
-#abrirMenuButton {
-    background-color: rgba(49, 49, 143, 0.815);
-    color: aliceblue;
-    font-size: 2vw;
-}
-
-/* <<< SECCIÓN CONTENIDO NAVEGADOR LATERAL 003 >>>*/
-
-.Postnav {
+.Postnav{
     margin-left: 0px;
     width: 17%;
-    height: 1000px;
+    height: 900px;
     background-color: rgb(30, 30, 133);
     color: aliceblue;
 }
-
-.navpost {
+.navpost{
     display: flex;
 }
 
+#navbar img:hover {
+    transform: translateY(-5px);
+
+}
 .Postnav1 {
     margin: 15px;
     color: aliceblue;
 }
-
 .Postnav1 img {
     width: 210px;
     height: auto;
 }
-
 .Postnav1 select {
     width: 205px;
     height: 30px;
     background-color: rgba(255, 255, 255, 0.247);
-    color: aliceblue;
+    color:aliceblue;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
-#textoOculto {
-   display: none;
-}
-
-#textoO2 {
-    display: none;
- }
-
-
-/*  <<< SECCIÓN CATEGORÍA 004 >>>   */
-
-.cuadrogris {
+.cuadrogris{
     display: flex;
     margin-top: 75px;
     width: 100%;
     height: 500px;
     background-color: rgb(77, 77, 77);
     margin-bottom: 15%;
-    color: rgba(240, 248, 255, 0.904);
+    color: aliceblue;
 }
-
 .textocuadro {
     margin-top: 5%;
     margin-left: 15%;
@@ -170,153 +129,27 @@ nav img {
     height: auto;
     background-color: none;
 }
-
 .textocuadro h1 {
     font-size: 40px;
 }
-
-#BotonRecuadro {
-    position: absolute;
-    color: gray;
-    background-color: #A6F4F7;
-    font-size: 15px;
-    margin: 10px;
-    border-bottom: gray;
-    padding: 10px 10px;
-}
-
-.linea {
-    position: absolute;
-    top: 45%;
-    width: 1.2%;
-    border-color: gray;
-    border-style: solid;
-    border-width: 1.5px 2 1;
-}
-
-/* <<< SECCIÓN CUADRO FUNCIONAL RANGE 005 >>>*/
-
 .imagenescuadro {
     margin-left: 70px;
     margin-top: 40px;
     width: 315px;
-    height: 510px;
+    height: 520px;
     background-color: rgb(210, 231, 253);
 }
-
-
-/* <<< SECCIÓN FOOTER 006 >>> */
-
-img.btn-whatsapp {
-    display: block !important;
-    position: fixed;
-    z-index: 9999999;
-    right: 20px;
-    margin-top: 100px;
-    margin-right: -120px;
-    cursor: pointer;
-    border-radius: 100px !important;
-}
-
-img.btn-whatsapp:hover {
-    border-radius: 100px !important;
-    -webkit-box-shadow: 0px 0px 15px 0px rgba(7, 94, 84, 1);
-    -moz-box-shadow: 0px 0px 15px 0px rgba(7, 94, 84, 1);
-    box-shadow: 0px 0px 15px 0px rgba(7, 94, 84, 1);
-    transition-duration: 1s;
-}
-
-#PiePagina {
+.texto-inferior {
+    background-color: #f0f0f0;
     position: absolute;
-    bottom: -10%;
-    left: 50%;
-    transform: translateX(-50%);
-    color: gray;
-    font-size: 30px;
-}
-
-
-#PiePagina2 {
-    position: absolute;
-    bottom: -10%;
-    left: 52%;
-    transform: translateX(-50%);
-    color: gray;
-    font-size: 30px;
-}
-
-#PiePagina3 {
-    position: absolute;
-    bottom: -10%;
-    left: 48%;
-    transform: translateX(-50%);
-    color: gray;
-    font-size: 30px;
-}
-
-#PiePagina4 {
-    position: absolute;
-    bottom: -10%;
-    left: 44%;
-    transform: translateX(-50%);
-    color: gray;
-    font-size: 30px;
-}
-
-
-/* <<<<<<<<<<<<<<<<<<<<<<<<<<< ELIMMINAR LOGIN SECCIÓN 500 >>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-
-/* estilo del login*/
-
-
-.modal {
-    background-color: rgb(60, 75, 88);
-    color: white;
-    border-radius: 1em;
-}
-
-.container,
-input {
-
-    background-color: rgb(60, 75, 88);
-    color: white;
-    border-radius: 1em;
-
-}
-
-#container,
-button {
-
-    background-color: rgba(52, 43, 85, 0.903);
-    color: rgb(191, 198, 207);
-    border-radius: 1em;
-
-}
-
-#username,
-#password,
-#login,
-#cancel,
-#forgotPassword {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 14px;
-}
-
-/* fin del estilo del login */
-
-
-body {
-    transition: background-color 0.5s;
-
-}
-
-/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< ELIMINAR FUNCIONALIDAD COLORPICKER  SECCIÓN 500 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-
-#colorPicker {
-    position: fixed;
-    top: 90%;
-    right: 10px;
-    display: flex;
-    align-items: center;
+    text-align:center; 
+    top: calc(100% + 65px); 
+    left: 265px; 
+    height: 150px;
+    padding: 10px;
+    width: 80%; 
+    color: rgb(133, 124, 113);
+    font-size:x-large;
+    line-height: 5;
+    border-top: 3px solid rgb(31, 84, 197);
 }
