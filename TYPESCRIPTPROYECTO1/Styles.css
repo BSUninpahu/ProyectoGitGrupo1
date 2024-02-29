@@ -2,7 +2,11 @@ body{
     
     padding: 0px;
     margin: 0px;
+<<<<<<< HEAD
     background-color: rgb(185, 191, 196);
+=======
+    background-color: rgba(191, 197, 215, 0.949);
+>>>>>>> NewSalazar
 }
 header img{
     height: 30px;
@@ -12,8 +16,13 @@ header{
     margin: 0px;
     height: 40px;   
     display: flex;
+<<<<<<< HEAD
     text-align: center; 
     background-color: white;
+=======
+    text-align: center;
+    background-color: rgba(236, 240, 253, 0.884);
+>>>>>>> NewSalazar
 }
 .header{
 
@@ -32,7 +41,11 @@ header button{
     border-radius: 2em;
     text-align: center;
     content: inherit;
+<<<<<<< HEAD
     background-color: rgba(151, 147, 147,0.4);
+=======
+    background-color: rgba(200, 216, 244, 0.4);
+>>>>>>> NewSalazar
 
 }
 
@@ -64,6 +77,23 @@ header .izquierda{
 header .derecha{
     border-right: solid #EAEDEE;
 }
+<<<<<<< HEAD
+=======
+
+
+#header,button:hover{
+
+    background-color: rgba(118, 116, 255, 0.719);
+    color: aliceblue;
+    display: block;
+    transition: all 0.3s ease;
+
+}
+
+
+/*<<< SECCIÓN NAV NAVEGADOR LATERAL 002 >>>*/
+
+>>>>>>> NewSalazar
 nav {
     width: 3%;
     height: 900px;
@@ -113,12 +143,24 @@ nav img{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+<<<<<<< HEAD
 .cuadrogris{
+=======
+
+
+
+
+
+
+/*  <<< SECCIÓN CATEGORÍA 004 >>>   */
+
+.cuadrogris {
+>>>>>>> NewSalazar
     display: flex;
     margin-top: 75px;
     width: 100%;
     height: 500px;
-    background-color: rgb(77, 77, 77);
+    background-image: url("IMAGES/fondosec4.png");
     margin-bottom: 15%;
     color: aliceblue;
 }
@@ -132,10 +174,44 @@ nav img{
 .textocuadro h1 {
     font-size: 40px;
 }
+<<<<<<< HEAD
+=======
+
+#BotonRecuadro {
+    position: absolute;
+    color: gray;
+    background-color: #A6F4F7;
+    font-size: 15px;
+    margin: 10px;
+    border-bottom: gray;
+    padding: 10px 10px;
+}
+
+.linea {
+    position: absolute;
+    top: 45%;
+    width: 1.2%;
+    border-color: gray;
+    border-style: solid;
+    border-width: 1.5px 2 1;
+}
+
+#BotonRecuadro:hover{
+
+    background-color: rgba(118, 116, 255, 0.719);
+    color: aliceblue;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+/* <<< SECCIÓN CUADRO FUNCIONAL RANGE 005 >>>*/
+
+>>>>>>> NewSalazar
 .imagenescuadro {
     margin-left: 70px;
     margin-top: 40px;
     width: 315px;
+<<<<<<< HEAD
     height: 520px;
     background-color: rgb(210, 231, 253);
 }
@@ -153,3 +229,139 @@ nav img{
     line-height: 5;
     border-top: 3px solid rgb(31, 84, 197);
 }
+=======
+    height: 510px;
+    background-color: rgba(186, 211, 237, 0.704);
+    
+}
+
+.funcionessec5{
+
+    
+    background-color: rgba(38, 20, 83, 0.892);
+    margin-left: 30px;
+    border-radius: 1em;
+    color: aliceblue;
+    text-align: center;
+    width: 80%;
+    
+   
+
+
+
+}
+
+#funcionessec5,input{
+
+    background-color: rgba(38, 20, 83, 0.892);
+    border-radius: 0.1em;
+    color: aliceblue;
+
+    border-color: rgba(240, 248, 255, 0.703);
+    
+    
+}
+
+
+#funcionessec5,ul{
+
+    margin-right: 30px;
+    list-style:none ;
+
+
+}
+
+
+.funcionessec5 a{
+
+color: aliceblue;
+}
+
+
+
+.funcionessec5 img{
+
+    width: 35px;
+    height: 35px;
+    margin-left: 35px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* <<< SECCIÓN FOOTER 006 >>> */
+
+img.btn-whatsapp {
+    display: block !important;
+    position: fixed;
+    z-index: 9999999;
+    right: 20px;
+    margin-top: 100px;
+    margin-right: -120px;
+    cursor: pointer;
+    border-radius: 100px !important;
+}
+
+img.btn-whatsapp:hover {
+    border-radius: 100px !important;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(7, 94, 84, 1);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(7, 94, 84, 1);
+    box-shadow: 0px 0px 15px 0px rgba(7, 94, 84, 1);
+    transition-duration: 1s;
+}
+
+#PiePagina {
+    position: absolute;
+    bottom: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: gray;
+    font-size: 30px;
+}
+
+
+#PiePagina2 {
+    position: absolute;
+    bottom: -10%;
+    left: 52%;
+    transform: translateX(-50%);
+    color: gray;
+    font-size: 30px;
+}
+
+#PiePagina3 {
+    position: absolute;
+    bottom: -10%;
+    left: 48%;
+    transform: translateX(-50%);
+    color: gray;
+    font-size: 30px;
+}
+
+#PiePagina4 {
+    position: absolute;
+    bottom: -10%;
+    left: 44%;
+    transform: translateX(-50%);
+    color: gray;
+    font-size: 30px;
+}
+
+
+
+
+
+body {
+    transition: background-color 0.5s;
+
+}
+
+>>>>>>> NewSalazar
